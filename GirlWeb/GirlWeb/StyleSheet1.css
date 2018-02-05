@@ -1,4 +1,4 @@
-html {
+﻿html {
     box-sizing: border-box;
 }
 
@@ -609,7 +609,6 @@ strong {
         .social li a {
             padding: 8px 16px 0;
             margin: 8px 0 0;
-            color:#5c5c5c;
             vertical-align: middle;
             font-size: 22px;
             font-weight: normal;
@@ -627,7 +626,7 @@ strong {
 
 .social li a i {
     color: #d8d8d8;
-    transition: 0.35s ease-in-out;   
+    transition: 0.35s ease-in-out;
 }
 
     .social li a:hover {
