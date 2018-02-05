@@ -108,14 +108,22 @@
     <Content Include="html\contact.html" />
     <Content Include="html\css\all.css" />
     <Content Include="html\css\ss-social-regular.css" />
+    <Content Include="html\css\workdetail.css" />
     <Content Include="html\home.html" />
     <Content Include="html\img\header.jpg" />
+    <Content Include="html\img\header.png" />
     <Content Include="html\img\header1.jpg" />
     <Content Include="html\img\mathelme-logo.svg" />
     <Content Include="html\index.htm" />
     <Content Include="html\js\jquery.fitvids.js" />
     <Content Include="html\js\main.js" />
     <Content Include="html\js\ss-social.js" />
+    <Content Include="html\work\dribbble.html" />
+    <Content Include="html\work\dribbble\img\mry12_3_img_cinemaDisplay_homePageBoxes.jpg" />
+    <Content Include="html\work\dribbble\img\mry_2_img_workPage.jpg" />
+    <Content Include="html\work\dribbble\img\mry_3_img_caseStudies.jpg" />
+    <Content Include="html\work\dribbble\img\mry_xx_workPage_mobile.jpg" />
+    <Content Include="html\work\dribbble\img\x_mry_4_img_blogPage.jpg" />
     <Content Include="StyleSheet1.css" />
     <Content Include="Web.config" />
   </ItemGroup>
