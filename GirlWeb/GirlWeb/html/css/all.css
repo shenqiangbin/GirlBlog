@@ -729,6 +729,14 @@ img {
     }
 }
 
+@media screen and (max-width: 769px) {
+    .page-content h2 {
+        text-align: center;
+        width: 100%;
+        margin: 0 0 24px;
+    }
+}
+
 .page-title .description {
     font-size: 26px;
     color: #5c5c5c;
