@@ -128,10 +128,21 @@
     <Content Include="otherhtml\js\index.html" />
     <Content Include="otherhtml\img\index.html" />
     <Content Include="otherhtml\img\sloading.gif" />
+    <Content Include="otherhtml\js\lunbo\1.jpg" />
+    <Content Include="otherhtml\js\lunbo\2.jpg" />
+    <Content Include="otherhtml\js\lunbo\3.jpg" />
+    <Content Include="otherhtml\js\lunbo\4.jpg" />
+    <Content Include="otherhtml\js\lunbo\5.jpg" />
+    <Content Include="otherhtml\js\lunbo\jquery-1.10.2.js" />
+    <Content Include="otherhtml\js\lunbo\jquery.min.js" />
+    <Content Include="otherhtml\js\lunbo\jtl02.png" />
+    <Content Include="otherhtml\js\lunbo\jtr03.png" />
+    <Content Include="otherhtml\js\lunbo\lunbo.html" />
+    <Content Include="otherhtml\js\lunbo\Lunbo.js" />
     <Content Include="otherhtml\map.html" />
-    <Content Include="otherhtml\tooltip\index.html" />
-    <Content Include="otherhtml\tooltip\tooltip.css" />
-    <Content Include="otherhtml\tooltip\tooltip.js" />
+    <Content Include="otherhtml\js\tooltip\index.html" />
+    <Content Include="otherhtml\js\tooltip\tooltip.css" />
+    <Content Include="otherhtml\js\tooltip\tooltip.js" />
     <Content Include="StyleSheet1.css" />
     <Content Include="Web.config" />
   </ItemGroup>

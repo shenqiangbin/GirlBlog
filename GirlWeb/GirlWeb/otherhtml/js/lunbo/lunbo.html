@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0049)http://www.jq22.com/demo/jquerylbthk201712272345/ -->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>简单实用的轮播插件</title>
+
+    <script src="http://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="Lunbo.js"></script>
+
+    <style type="text/css">
+            * {padding: 0;margin: 0;}
+			body {background: #f3f3f3;}
+			.Box {position: relative;}
+			.Box .content {width: 1200px;margin: 0 auto;}
+			.Box h2 {text-align: center;margin-bottom: 35px;padding-top: 250px;}
+			.Box .Box_con {position: relative;}
+			.Box .Box_con .btnl {position: absolute;}
+			.Box .Box_con .btn {display: block;width: 41px;height: 41px;position: absolute;top: 80px;cursor: pointer;}
+			.Box .Box_con .btnl {background: url(jtl02.png) no-repeat center;left: -72px;}
+			.Box .Box_con .btnr {background: url(jtr02.png) no-repeat center;right: -72px;}
+			.Box .Box_con .btnl:hover {background: url(jtl03.png) no-repeat center;}
+			.Box .Box_con .btnr:hover {background: url(jtr03.png) no-repeat center;}
+			.Box .Box_con .conbox {position: relative;overflow: hidden;}
+			.Box .Box_con .conbox ul {position: relative;list-style: none;}
+			.Box .Box_con .conbox ul li {float: left;width: 285px;height: 200px;margin-left: 20px;overflow: hidden;}
+			.Box .Box_con .conbox ul li:first-child {margin-left: 0;}
+			.Box .Box_con .conbox ul li img {display: block;width: 285px;height: 200px;transition: all 0.5s;}
+			.Box .Box_con .conbox ul li:hover img {transform: scale(1.1);}
+			
+			.Box .BoxSwitch {margin-top: 30px;text-align: center;}
+			.Box .BoxSwitch span {display: inline-block;*display: inline;*zoom: 1;vertical-align: middle;width: 30px;height: 3px;background: #ccc;margin: 0 5px;cursor: pointer;}
+			.Box .BoxSwitch span.cur {background: red;}
+    </style>
+
+</head>
+<body style="">
+    <div style="background-color: #b5b2b2;color: white;text-align: center;font-size: small;">2018-02-07</div>
+    <div class="Box">
+        <div class="content">
+            <h2>简单实用的轮播插件</h2>
+
+            <div class="Box_con clearfix">
+                <span class="btnl btn" id="btnl"></span>
+                <span class="btnr btn" id="btnr"></span>
+
+                <div class="conbox" id="BoxUl">
+                    <ul style="width: 1500px; left: 0px;">
+                        <li class="cur"><img src="5.jpg" alt=""></li>
+                        <li class="cur"><img src="1.jpg" alt=""></li>
+                        <li class="cur"><img src="2.jpg" alt=""></li>
+                        <li class="cur"><img src="3.jpg" alt=""></li>
+                        <li class="cur"><img src="4.jpg" alt=""></li>
+                    </ul>
+                </div>
+
+                <p class="BoxSwitch" id="BoxSwitch">
+                    <span class=""></span>
+                    <span class=""></span>
+                    <span class=""></span>
+                    <span class=""></span>
+                    <span class="cur"></span>
+                </p>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        //滚动元素id，左切换按钮，右切换按钮，切换元素个数id,滚动方式，切换方向，是否自动滚动，滚动距离，滚动时间，滚动间隔，显示个数
+        LbMove('BoxUl', 'btnl', 'btnr', 'BoxSwitch', true, 'left', true, 305, 1000, 2000, 2);
+    </script>
+
+</body>
+</html>
