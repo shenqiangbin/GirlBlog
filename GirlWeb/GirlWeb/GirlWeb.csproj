@@ -125,6 +125,9 @@
     <Content Include="html\work\dribbble\img\mry_xx_workPage_mobile.jpg" />
     <Content Include="html\work\dribbble\img\x_mry_4_img_blogPage.jpg" />
     <Content Include="otherhtml\map.html" />
+    <Content Include="otherhtml\tooltip\index.html" />
+    <Content Include="otherhtml\tooltip\tooltip.css" />
+    <Content Include="otherhtml\tooltip\tooltip.js" />
     <Content Include="StyleSheet1.css" />
     <Content Include="Web.config" />
   </ItemGroup>
