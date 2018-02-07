@@ -124,6 +124,7 @@
     <Content Include="html\work\dribbble\img\mry_3_img_caseStudies.jpg" />
     <Content Include="html\work\dribbble\img\mry_xx_workPage_mobile.jpg" />
     <Content Include="html\work\dribbble\img\x_mry_4_img_blogPage.jpg" />
+    <Content Include="otherhtml\img\loading.gif" />
     <Content Include="otherhtml\js\index.html" />
     <Content Include="otherhtml\img\index.html" />
     <Content Include="otherhtml\img\sloading.gif" />
