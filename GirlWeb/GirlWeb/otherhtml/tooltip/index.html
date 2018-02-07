@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>tooltip</title>
+    <meta charset="utf-8" />
+    <style>
+        .container {
+            width: 1200px;
+            margin: 0 auto;
+        }
+        .usedesc{
+            margin-top:20px;
+            color:red;           
+        }
+    </style>
+
+    <link rel="stylesheet" href="tooltip.css" type="text/css" />
+
+</head>
+<body>
+    <div class="container">
+        <div>
+            参照：<a href="http://www.jq22.com/jquery-info15371" target="_blank">http://www.jq22.com/jquery-info15371</a>
+        </div>
+        <div class="usedesc">
+            右键->查看网页源代码 来研究具体调用方法
+        </div>
+        <div>
+            <h2>效果：</h2>
+
+            <div>
+                第一种形式<br />
+                <span id="my-element">Hover Me</span>
+            </div>
+
+            <h4></h4>
+
+            <div>
+                第二种形式<br />
+                <button class="tip-hotspot" data-tip="This is the tooltip text">Button text here</button>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
+
+
+<script src="http://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src='tooltip.js'></script>
+<script>
+
+    //第一种形式
+    $(document).ready(function () {
+        $('#my-element').tooltip({
+            text: '这是一个tooltip',
+            //fontSize: '14px',
+            //theme: 'light',
+            //fontFamily: "'Roboto-Medium', 'Roboto-Regular', Arial",
+            //delay: 400
+            //textColor: '#757575',
+            //shadowColor: '#000',
+        });
+    });
+
+    //全局配置
+    //第二种形式
+    $(document).ready(function () {
+        ToolTip.init({
+            //delay: 400,
+            //fadeDuration: 250,
+            //fontSize: '1.0em',
+            //theme: 'light',
+            //textColor: '#757575',
+            //shadowColor: '#000',
+            //fontFamily: "'Roboto-Medium', 'Roboto-Regular', Arial"
+        });
+    });
+</script>
