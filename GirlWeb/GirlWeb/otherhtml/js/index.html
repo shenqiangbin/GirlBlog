@@ -23,15 +23,19 @@
             padding: 20px;
             background-color: #8080da;            
         }
-        .box:hover{
+        /*.box:hover{
             cursor:pointer;
             background-color:#6464dc;
-        }
+        }*/
         .box a{
             color: white;
         }
+        .box a:hover{
+            color: yellow;
+        }
 
         .title{
+            color: white;
             font-size:large;
             font-weight:bold;
         }
@@ -49,18 +53,26 @@
         </div>
 
         <div class="box">
-            <a href="tooltip/index.html" target="_blank">
-                <div class="title">ToolTip 提示 提示词</div>
+            <div class="title">ToolTip 提示 提示词</div>
+            <a href="tooltip/index.html" target="_blank">                
                 <div class="desc">鼠标移动上去，提示信息</div>
             </a>
         </div>
        
         <div class="box">
-            <a href="lunbo/lunbo.html" target="_blank">
-                <div class="title">轮播图</div>
-                <div class="desc">网友自己写的“Lunbo.js”</div>
+            <div class="title">轮播图</div>
+
+            <a href="lunbo/lunbo.html" target="_blank">                
+                <div class="desc">1、网友自己写的“Lunbo.js”</div>
+            </a>
+            <a href="http://www.swiper.com.cn/" target="_blank">
+                <div class="desc">2、swiper，支持大部分轮播图</div>
             </a>
         </div>
+
+        
+
+
 
     </div>
 </body>
