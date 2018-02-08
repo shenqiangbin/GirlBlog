@@ -11,3 +11,16 @@
     line-height:35px;
     margin: 0 10px;    
 }
+
+div.imgbox {
+    text-align:center;
+}
+
+div.imgbox img{
+    display:inline;
+    float:none;
+    width:auto;
+    max-width:100%;
+}
+
+

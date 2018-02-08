@@ -33,20 +33,23 @@
        <p>In late 2016, creative and technology agency MRY, formerly known as Mr Youth, was looking for change. I was tasked with leading a reskin of their website that would help reposition them as an agency for what they called the New Consumer.</p>
        <p>After an audit of their website, I proposed a more thorough rethink of the website, adapting and expanding upon a visual identity created by Catherine Gray and showing how it could be used throughout the site and across channels. The final site was more visually consistent, easier to use, and included additional deliverables in the form of new motion design work by Mark Robson—for use in case studies and promotional videos—and a style guide for the design and development teams to use going forward.</p>
     </div>
-    <div>
+    <div class="imgbox">
         <img data-original="./dribbble/img/mry12_3_img_cinemaDisplay_homePageBoxes.jpg" alt="mry12_3_img_cinemaDisplay_homePageBoxes"/>
     </div>
-    <div>
+    <div class="imgbox">
         <img data-original="./dribbble/img/mry_3_img_caseStudies.jpg" alt="mry_3_img_caseStudies" />
     </div>
-    <div>
+    <div class="imgbox">
         <img data-original="./dribbble/img/mry_xx_workPage_mobile.jpg" alt="mry_xx_workPage_mobile" />
     </div>
-    <div>
+    <div class="imgbox">
         <img data-original="./dribbble/img/mry_2_img_workPage.jpg" alt="mry_2_img_workPage" />
     </div>
-    <div>
+    <div class="imgbox">
         <img data-original="./dribbble/img/x_mry_4_img_blogPage.jpg" alt="x_mry_4_img_blogPage" />
+    </div>
+    <div class="imgbox">
+        <img data-original="loading.gif" alt="x_mry_4_img_blogPage" />
     </div>
 
     <section>
@@ -71,7 +74,7 @@
     <script>
         $(function () {
             $("img").lazyload({
-                placeholder: "http://cdn.uedna.com/201402/1392662587108_1140x0.gif", //用图片提前占位
+                placeholder: "loading.gif", //用图片提前占位
                 effect: "fadeIn", /*effect(特效),值有show(直接显示),fadeIn(淡入),slideDown(下拉)等,常用fadeIn*/
                 threshold: 180 /*在图片距离屏幕180px时提前载入*/
                 //event: 'click',  // 事件触发时才加载
