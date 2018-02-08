@@ -9,7 +9,8 @@
 .work-desc p{
     margin-bottom:20px;
     line-height:35px;
-    margin: 0 10px;    
+    margin: 0 10px;  
+    text-align: justify;  
 }
 
 div.imgbox {
