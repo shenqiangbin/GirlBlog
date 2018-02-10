@@ -1,0 +1,51 @@
+body,ul,li{
+	margin: 0;
+	padding: 0;
+}
+body{ background-color: #272727; color: white; }
+
+.zy-slide{
+	/* 两个 section (前一张、后一张) 要做相对定位 */
+	position: relative;
+	width: 754px;
+	height: 292px;
+	margin: 100px auto 0;
+	/*background-color: red;*/
+	/* 799 - 754 = 45 */
+}
+.zy-slide .zy-prev,.zy-slide .zy-next{
+	position: absolute;
+	top: 50%;
+	width: 40px;
+	height: 80px;
+	margin-top: -40px;
+	line-height: 80px;
+	text-align: center;
+	font-size: 13px;
+	cursor: pointer;
+}
+
+.zy-slide .zy-prev{
+	left: -60px;
+}
+.zy-slide .zy-next{
+	right: -60px;
+}
+.zy-slide ul{
+	position: relative;
+	width: 754px;
+	height: 292px;
+	
+}
+.zy-slide li{
+	position: absolute;
+	width: 0;
+	height: 0;
+	list-style: none;
+	background-color: black;
+	border-radius: 5px;
+}
+.zy-slide li img{
+	width: 100%;
+	height: 100%;
+}
