@@ -184,6 +184,11 @@
     <Content Include="otherhtml\js\rotatelunbo\js\jquery.zyslide.js" />
     <Content Include="otherhtml\js\rotatelunbo\lunbo.html" />
     <Content Include="otherhtml\js\rotatelunbo\main.js" />
+    <Content Include="otherhtml\life\1\1.jpg" />
+    <Content Include="otherhtml\life\1\index.html" />
+    <Content Include="otherhtml\life\header.html" />
+    <Content Include="otherhtml\life\footer.html" />
+    <Content Include="otherhtml\life\index.shtml" />
     <Content Include="otherhtml\map.html" />
     <Content Include="otherhtml\js\tooltip\index.html" />
     <Content Include="otherhtml\js\tooltip\tooltip.css" />
