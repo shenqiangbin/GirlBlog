@@ -91,6 +91,9 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="html\about.html" />
+    <Content Include="html\assets\1.png" />
+    <Content Include="html\assets\2.png" />
+    <Content Include="html\assets\3.png" />
     <Content Include="html\assets\4p-thumb.png" />
     <Content Include="html\assets\Agency-Template_thumb-1.png" />
     <Content Include="html\assets\AlbumAppforiOS_thumb.png" />
@@ -119,6 +122,10 @@
     <Content Include="html\js\main.js" />
     <Content Include="html\js\ss-social.js" />
     <Content Include="html\work\dribbble.html" />
+    <Content Include="html\work\dribbble\img\11-s.png" />
+    <Content Include="html\work\dribbble\img\11.png" />
+    <Content Include="html\work\dribbble\img\22-s.png" />
+    <Content Include="html\work\dribbble\img\22.png" />
     <Content Include="html\work\dribbble\img\mry12_3_img_cinemaDisplay_homePageBoxes.jpg" />
     <Content Include="html\work\dribbble\img\mry_2_img_workPage.jpg" />
     <Content Include="html\work\dribbble\img\mry_3_img_caseStudies.jpg" />

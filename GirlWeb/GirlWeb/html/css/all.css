@@ -794,6 +794,7 @@ img {
     display: inline-block;
     text-align: center;
     width: 100%;
+    font-family: Arial;
 }
 
 @media screen and (max-width: 599px) {
