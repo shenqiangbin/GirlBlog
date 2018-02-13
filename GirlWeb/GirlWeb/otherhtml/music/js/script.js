@@ -12,6 +12,69 @@
 				cover: 'img/2.jpg',
 				mp3: 'haikuotiankong.mp3',
 				ogg: ''
+			},{
+				title: '大海',
+				artist: '张雨生',
+				album: '大海',
+				cover: 'img/2.jpg',
+				mp3: 'dahai.mp3',
+				ogg: ''
+			},{
+				title: '谁明浪子心',
+				artist: '王杰',
+				album: '',
+				cover: 'img/2.jpg',
+				mp3: '王杰 - 谁明浪子心.mp3',
+				ogg: ''
+			},{
+				title: 'Take Me to Your Heart',
+				artist: '未知',
+				album: '',
+				cover: 'img/2.jpg',
+				mp3: 'Take Me to Your Heart.mp3',
+				ogg: ''
+			},{
+				title: '爱江山更爱美人',
+				artist: '李丽芬',
+				album: '',
+				cover: 'img/2.jpg',
+				mp3: '爱江山更爱美人   李丽芬.mp3',
+				ogg: ''
+			},{
+				title: '男儿当自强',
+				artist: '成龙',
+				album: '',
+				cover: 'img/2.jpg',
+				mp3: '成龙 - 男儿当自强.mp3',
+				ogg: ''
+			},{
+				title: '窗外',
+				artist: '李琛',
+				album: '',
+				cover: 'img/2.jpg',
+				mp3: '李琛-窗外.mp3',
+				ogg: ''
+			},{
+				title: '挪威的森林',
+				artist: '伍佰',
+				album: '',
+				cover: 'img/2.jpg',
+				mp3: '伍佰 - 挪威的森林.mp3',
+				ogg: ''
+			},{
+				title: '大海',
+				artist: '张雨生',
+				album: '',
+				cover: 'img/2.jpg',
+				mp3: '张雨生 - 大海.mp3',
+				ogg: ''
+			},{
+				title: '渡情',
+				artist: '左宏元',
+				album: '',
+				cover: 'img/2.jpg',
+				mp3: '左宏元 - 渡情.mp3',
+				ogg: ''
 			}
 			];
 

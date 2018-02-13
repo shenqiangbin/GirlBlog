@@ -29,7 +29,6 @@ a {
 #background {
 
   background-size: cover;
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -48,6 +47,17 @@ a {
   margin: 50px auto 30px;
   position: relative;
 }
+
+@media screen and (max-width: 769px) {
+    #player{
+        width: auto;
+        height: 262px;
+        padding: 26px;
+        margin: 3px auto 5px;
+        position: relative;
+    }
+}
+
 #player .cover {
   background: rgba(0, 0, 0, 0.5);
   border: 1px solid #333;
@@ -68,6 +78,16 @@ a {
   -o-box-shadow: 0 2px 10px black;
   box-shadow: 0 2px 10px black;
 }
+
+@media screen and (max-width: 769px) {    
+    #player .cover {
+        position:relative;
+        margin:0 auto;
+        left:0;
+        top:0;
+    }
+}
+
 #player .cover img {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -82,6 +102,12 @@ a {
   margin-left: 155px;
   text-shadow: 0 1px 2px #000;
   line-height: 16px;
+}
+@media screen and (max-width: 769px) {
+    #player .ctrl {
+        margin-top: 17px;
+        margin-left:0px;
+    }
 }
 #player .ctrl .tag strong, #player .ctrl .tag span {
   display: block;
@@ -247,6 +273,13 @@ a {
   -o-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
 }
+
+@media screen and (max-width: 769px) {
+    #playlist{
+        width: 81%;
+    }
+}
+
 #playlist li {
   color: #aaa;
   font-size: 12px;

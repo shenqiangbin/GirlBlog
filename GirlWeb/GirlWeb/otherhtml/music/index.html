@@ -2,11 +2,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <title>望你还能开心</title>
     <link rel="stylesheet" href="css/stylesheets/style.css" />
 </head>
 <body>
     <div id="background">
+
+        <div style="text-align:center;margin-top: 26px;">
+            <a href="http://www.sqber.com" target="_blank" style="color:white;">SQBER</a>
+            <div style="font-family: 楷体;margin-top: 3px;">老申个人网站音乐</div>
+        </div>
+
         <div id="player">
             <div class="cover"></div>
             <div class="ctrl">
@@ -42,9 +49,25 @@
             </div>
         </div>
         <ul id="playlist"></ul>
+
+        <div style="text-align: center; margin: 0 auto;font-size: 14px; color: white; padding: 10px;margin-top: 20px;">
+            <p>All Rights Reserved SQBER &#169; 冀ICP备17029815号-1</p>
+        </div>
     </div>
-    <script src="http://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <!--<script src="http://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>-->
+    <script src="js/jquery-1.7.2.min.js"></script>
     <script src="js/jquery-ui-1.8.17.custom.min.js"></script>
     <script src="js/script.js"></script>
+
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?ef18c725ee26ac659f672367d8d541ee";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
 </body>
 </html>
