@@ -6,11 +6,11 @@
 		autoplay = true,
 		playlist = [			
 			{
-				title: '亡灵序曲',
-				artist: '魔兽世界',
-				album: '魔兽世界 - 亡灵序曲.mp3',
+				title: '海阔天空',
+				artist: 'Beyond',
+				album: '乐与怒',
 				cover: 'img/2.jpg',
-				mp3: 'http://rm.sina.com.cn/wm/VZ2010050511043310440VK/music/MUSIC1005051622027270.mp3',
+				mp3: 'haikuotiankong.mp3',
 				ogg: ''
 			}
 			];

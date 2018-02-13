@@ -203,6 +203,7 @@
     <Content Include="otherhtml\music\css\images\pause.png" />
     <Content Include="otherhtml\music\css\stylesheets\style.css" />
     <Content Include="otherhtml\music\img\2.jpg" />
+    <Content Include="otherhtml\music\haikuotiankong.mp3" />
     <Content Include="otherhtml\music\index.html" />
     <Content Include="otherhtml\music\js\jquery-1.7.2.min.js" />
     <Content Include="otherhtml\music\js\jquery-ui-1.8.17.custom.min.js" />
