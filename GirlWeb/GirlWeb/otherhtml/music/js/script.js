@@ -93,7 +93,7 @@
 		audio.play();
 		$('.playback').addClass('playing');
 		timeout = setInterval(updateProgress, 500);
-		isPlaying = true;
+		isPlaying = true;		
 	}
 
 	var pause = function(){
@@ -199,18 +199,20 @@
 		}
 	}
 
-	var beforeLoad = function(){
-		var endVal = this.seekable && this.seekable.length ? this.seekable.end(0) : 0;
+	var beforeLoad = function () {        
+	    var endVal = this.seekable && this.seekable.length ? this.seekable.end(0) : 0;
 		$('.progress .loaded').css('width', (100 / (this.duration || 1) * endVal) +'%');
 	}
 
 	// Fire when track loaded completely
-	var afterLoad = function(){
+	var afterLoad = function () {
+	    $("#loadInfo").html("");
 		if (autoplay == true) play();
 	}
 
 	// Load track
-	var loadMusic = function(i){
+	var loadMusic = function (i) {
+	    $("#loadInfo").html("音乐加载中...");
 		var item = playlist[i],
 			newaudio = $('<audio>').html('<source src="'+item.mp3+'"><source src="'+item.ogg+'">').appendTo('#player');
 		
