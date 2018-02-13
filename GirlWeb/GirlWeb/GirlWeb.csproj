@@ -132,6 +132,7 @@
     <Content Include="html\work\dribbble\img\mry_xx_workPage_mobile.jpg" />
     <Content Include="html\work\dribbble\img\x_mry_4_img_blogPage.jpg" />
     <Content Include="html\work\loading.gif" />
+    <Content Include="otherhtml\history.html" />
     <Content Include="otherhtml\img\loading.gif" />
     <Content Include="otherhtml\js\index.html" />
     <Content Include="otherhtml\img\index.html" />
