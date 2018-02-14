@@ -2,54 +2,76 @@
 <html>
 <head>
     <title>网站导航</title>
-	<meta charset="utf-8" />
+    <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <style>
-        .container{
-            width:1200px;
-            margin:0 auto;
+        html{
+            background:url('bg.gif');
         }
+        .container {
+            width: 1200px;
+            margin: 0 auto;
+        }
+
         @media screen and (max-width: 769px) {
-            .container{
-                width:96%;            
+            .container {
+                width: 96%;
             }
+        }
+
+        .box{
+            background-color: #e5e4e9;
+            padding: 20px;
+            margin:10px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h3>相关网站</h3>
-        <p><a href="http://blog.sqber.com" target="_blank">个人博客</a></p>
-        <p>
-            <a href="http://gongqian.sqber.com" target="_blank">女朋友网站</a>
-            &nbsp;&nbsp;&nbsp;
-            <a href="http://www.sqber.com/js/love" target="_blank">love</a>
-        </p>
-        <p><a href="http://www.sqber.com/js" target="_blank">JS相关</a></p>
-        <p><a href="http://www.sqber.com/music" target="_blank">我的音乐</a></p>
+        <div class="box">
+            <h3>相关网站</h3>
+            <p><a href="http://blog.sqber.com" target="_blank">个人博客</a></p>
+            <p>
+                <a href="http://gongqian.sqber.com" target="_blank">女朋友网站</a>
+                &nbsp;&nbsp;&nbsp;
+                <a href="http://www.sqber.com/js/love" target="_blank">love</a>
+            </p>
+            <p><a href="http://www.sqber.com/js" target="_blank">JS相关</a></p>
+            <p><a href="http://www.sqber.com/music" target="_blank">我的音乐</a></p>
+        </div>
 
-        <h1>课余作业</h1>
-        <p>课余作业:下面是实实在在给人家做东西，赚到零花的。</p>
-        
-        <h3>华领网站</h3>
-        <p>2018-02</p>
-        <p>华领网站，前同事公司的一个官方网站，为他们做一些专题页。下面是做那几个专题页，我在自己网站也部署了一份。</p>
-        <ul>
-            <li><a href="http://www.sqber.com/hualing/xyzt" target="_blank">学员专题</a></li>
-            <li><a href="http://www.sqber.com/hualing/topteacher" target="_blank">国际名师</a></li>
-            <li><a href="http://www.sqber.com/hualing/zhaosheng" target="_blank">招生简章</a></li>
-        </ul>
-       
+        <div class="box">
+            <h3>工具程序</h3>
+
+            <p>
+                <a href=" http://www.sqber.com/ChangeVSProjectName/publish.htm" target="_blank">修改项目名称工具</a>
+                <div>用途：要做一个新项目，新项目可以使用旧项目的代码，代码拷贝过来后，要修改项目名称，但用的地方太多，难免有漏掉的，使用此工具可以全部改名。</div>
+            </p>
+        </div>
+
+        <div class="box">
+            <h3>课余作业</h3>
+            <p>课余作业:下面是实实在在给人家做东西，赚到零花的。</p>
+
+            <h3>华领网站</h3>
+            <p>2018-02</p>
+            <p>华领网站，前同事公司的一个官方网站，为他们做一些专题页。下面是做那几个专题页，我在自己网站也部署了一份。</p>
+            <ul>
+                <li><a href="http://www.sqber.com/hualing/xyzt" target="_blank">学员专题</a></li>
+                <li><a href="http://www.sqber.com/hualing/topteacher" target="_blank">国际名师</a></li>
+                <li><a href="http://www.sqber.com/hualing/zhaosheng" target="_blank">招生简章</a></li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
 
 <script>
-        var _hmt = _hmt || [];
-        (function () {
-            var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?ef18c725ee26ac659f672367d8d541ee";
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(hm, s);
-        })();
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?ef18c725ee26ac659f672367d8d541ee";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
 </script>
