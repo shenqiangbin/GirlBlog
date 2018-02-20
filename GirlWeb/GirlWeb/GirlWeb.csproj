@@ -112,6 +112,11 @@
     <Content Include="html\assets\22.png" />
     <Content Include="html\assets\23.png" />
     <Content Include="html\assets\24.png" />
+    <Content Include="html\assets\25.png" />
+    <Content Include="html\assets\26.png" />
+    <Content Include="html\assets\27.png" />
+    <Content Include="html\assets\28.png" />
+    <Content Include="html\assets\29.png" />
     <Content Include="html\assets\3.png" />
     <Content Include="html\assets\4.png" />
     <Content Include="html\assets\5.png" />
@@ -119,6 +124,9 @@
     <Content Include="html\assets\7.png" />
     <Content Include="html\assets\8.png" />
     <Content Include="html\assets\9.png" />
+    <Content Include="html\assets\jianjie.png" />
+    <Content Include="html\assets\jianjie2.png" />
+    <Content Include="html\assets\jianjie3.png" />
     <Content Include="html\contact.html" />
     <Content Include="html\css\all.css" />
     <Content Include="html\css\ss-social-regular.css" />
