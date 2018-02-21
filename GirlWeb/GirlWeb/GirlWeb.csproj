@@ -141,6 +141,8 @@
     <Content Include="html\js\jquery.fitvids.js" />
     <Content Include="html\js\main.js" />
     <Content Include="html\js\ss-social.js" />
+    <Content Include="html\work\food.html" />
+    <Content Include="html\work\food\food-1.jpg" />
     <Content Include="html\work\travel.html" />
     <Content Include="html\work\dribbble.html" />
     <Content Include="html\work\dribbble\img\11-s.png" />
