@@ -141,6 +141,15 @@
     <Content Include="html\js\ss-social.js" />
     <Content Include="html\work\food.html" />
     <Content Include="html\work\food\food-1.jpg" />
+    <Content Include="html\work\illustrations\1.jpg" />
+    <Content Include="html\work\picshare\1.jpg" />
+    <Content Include="html\work\qiezziClinic.html" />
+    <Content Include="html\work\illustrations.html" />
+    <Content Include="html\work\picshare.html" />
+    <Content Include="html\work\qiezziClinic\5-1.png" />
+    <Content Include="html\work\qiezziClinic\5-2.png" />
+    <Content Include="html\work\qiezziClinic\5-3.png" />
+    <Content Include="html\work\qiezziClinic\5-4.png" />
     <Content Include="html\work\travel.html" />
     <Content Include="html\work\dribbble.html" />
     <Content Include="html\work\dribbble\img\11-s.png" />
@@ -251,6 +260,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
+    <Folder Include="html\work\picshare - Copy %283%29\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
