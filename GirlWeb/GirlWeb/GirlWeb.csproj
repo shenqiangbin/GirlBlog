@@ -133,9 +133,7 @@
     <Content Include="html\css\ss-social-regular.css" />
     <Content Include="html\css\workdetail.css" />
     <Content Include="html\home.html" />
-    <Content Include="html\img\header.jpg" />
     <Content Include="html\img\header.png" />
-    <Content Include="html\img\header1.jpg" />
     <Content Include="html\img\mathelme-logo.svg" />
     <Content Include="html\index.htm" />
     <Content Include="html\js\jquery.fitvids.js" />
