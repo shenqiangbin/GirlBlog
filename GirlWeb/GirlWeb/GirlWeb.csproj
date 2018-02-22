@@ -139,8 +139,13 @@
     <Content Include="html\js\jquery.fitvids.js" />
     <Content Include="html\js\main.js" />
     <Content Include="html\js\ss-social.js" />
+    <Content Include="html\work\building\1.jpg" />
     <Content Include="html\work\food.html" />
     <Content Include="html\work\food\food-1.jpg" />
+    <Content Include="html\work\nettest.html" />
+    <Content Include="html\work\nettest\1.jpg" />
+    <Content Include="html\work\womenClothing.html" />
+    <Content Include="html\work\building.html" />
     <Content Include="html\work\illustrations\1.jpg" />
     <Content Include="html\work\picshare\1.jpg" />
     <Content Include="html\work\qiezziClinic.html" />
@@ -156,6 +161,7 @@
     <Content Include="html\work\dribbble\img\22-s.png" />
     <Content Include="html\work\loading.gif" />
     <Content Include="html\work\travel\travel-1.jpg" />
+    <Content Include="html\work\womenClothing\1.jpg" />
     <Content Include="otherhtml\bg.gif" />
     <Content Include="otherhtml\history.html" />
     <Content Include="otherhtml\img\loading.gif" />
@@ -260,7 +266,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
-    <Folder Include="html\work\picshare - Copy %283%29\" />
+    <Folder Include="html\work\picshare - Copy %283%29 - Copy %283%29\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
