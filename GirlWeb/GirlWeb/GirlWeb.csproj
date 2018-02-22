@@ -151,10 +151,17 @@
     <Content Include="html\work\cockpit\1.png" />
     <Content Include="html\work\food.html" />
     <Content Include="html\work\food\food-1.jpg" />
+    <Content Include="html\work\mbeIllustration.html" />
+    <Content Include="html\work\heraJewelry.html" />
+    <Content Include="html\work\mbeIllustration\1.jpg" />
+    <Content Include="html\work\wearIllustration.html" />
+    <Content Include="html\work\katong.html" />
+    <Content Include="html\work\katong\1.png" />
     <Content Include="html\work\videoShare.html" />
     <Content Include="html\work\nettest.html" />
     <Content Include="html\work\nettest\1.jpg" />
     <Content Include="html\work\videoShare\1.jpg" />
+    <Content Include="html\work\wearIllustration\1.png" />
     <Content Include="html\work\womenClothing.html" />
     <Content Include="html\work\building.html" />
     <Content Include="html\work\illustrations\1.jpg" />
@@ -277,8 +284,11 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
+    <Folder Include="html\work\heraJewelry\" />
     <Folder Include="html\work\picshare - Copy %283%29 - Copy %283%29 - Copy %282%29\" />
     <Folder Include="html\work\picshare - Copy %283%29 - Copy %283%29 - Copy %283%29\" />
+    <Folder Include="html\work\picshare - Copy %283%29 - Copy %283%29 - Copy %284%29\" />
+    <Folder Include="html\work\picshare - Copy %283%29 - Copy %283%29 - Copy %285%29\" />
     <Folder Include="html\work\picshare - Copy %283%29 - Copy %283%29 - Copy\" />
     <Folder Include="html\work\picshare - Copy %283%29 - Copy %283%29\" />
     <Folder Include="Models\" />
