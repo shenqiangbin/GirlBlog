@@ -1,0 +1,43 @@
+﻿.container {
+    height: 397px;
+    background: url('../img/contact-bg.png') no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 4px;
+    color: black;
+}
+
+.content{
+    width:700px;
+    margin:0 auto;
+    background-color:white;
+    border:0px solid red;
+    margin-top: 21px;
+}
+
+.telbox{
+    display:inline-block;
+    vertical-align:top;
+    font-size: 22px;
+    padding-top:50px;
+    padding-left:64px;
+}
+
+.telbox div{
+    margin-top:20px;
+    color:black;
+}
+
+.telbox img{
+    width:20px;
+    float:none;
+    display:inline-block;
+    margin-right: 24px;
+    vertical-align: middle;
+    margin-top:-6px;
+}
