@@ -1,8 +1,9 @@
-﻿.container {
-    height: 488px;
+﻿.container {   
     background: url('../img/contact-bg.png') no-repeat;
     background-size: cover;
-    padding-top: 50px;    
+    padding-top: 50px;
+    border: 0px solid red;
+    padding-bottom: 58px;    
 }
 
 .title {
@@ -20,6 +21,14 @@
     margin-top: 21px;
 }
 
+@media screen and (max-width: 599px) {
+    .content{
+        width:auto;
+        text-align:center;
+        background-color:initial;
+    }
+}
+
 .telbox{
     display:inline-block;
     vertical-align:top;
@@ -27,6 +36,14 @@
     padding-top:50px;
     padding-left:64px;
 }
+@media screen and (max-width: 599px) {
+    .telbox{
+        display:block;
+        text-align: left;
+        padding-top:3px;
+    }
+}
+
 
 .telbox div{
     margin-top:20px;
@@ -40,4 +57,8 @@
     margin-right: 24px;
     vertical-align: middle;
     margin-top:-6px;
+}
+
+.telbox a{
+    font-weight:normal !important;
 }
