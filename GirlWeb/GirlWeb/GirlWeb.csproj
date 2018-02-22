@@ -122,14 +122,12 @@
     <Content Include="html\assets\5.png" />
     <Content Include="html\assets\6.png" />
     <Content Include="html\assets\7.png" />
-    <Content Include="html\assets\8.png" />
+    <Content Include="html\assets\8.jpg" />
     <Content Include="html\assets\9.png" />
-    <Content Include="html\assets\contact.jpg" />
     <Content Include="html\assets\jianjie.png" />
     <Content Include="html\assets\jianjie2.png" />
     <Content Include="html\assets\jianjie3.png" />
     <Content Include="html\contact.html" />
-    <None Include="html\contact.html-" />
     <Content Include="html\css\all.css" />
     <Content Include="html\css\ss-social-regular.css" />
     <Content Include="html\css\contact.css" />
@@ -149,6 +147,24 @@
     <Content Include="html\work\building\1.jpg" />
     <Content Include="html\work\cockpit.html" />
     <Content Include="html\work\cockpit\1.png" />
+    <Content Include="html\work\food - Copy %282%29.html" />
+    <Content Include="html\work\heraJewelry\1.jpg" />
+    <Content Include="html\work\weather.html" />
+    <Content Include="html\work\musicapp.html" />
+    <Content Include="html\work\musicapp\1.png" />
+    <Content Include="html\work\RetroBadge.html" />
+    <Content Include="html\work\RetroBadge\1.png" />
+    <Content Include="html\work\sketchKaTong.html" />
+    <Content Include="html\work\sketchKaTong\1.gif" />
+    <Content Include="html\work\swirl.html" />
+    <Content Include="html\work\swirl\1.png" />
+    <Content Include="html\work\watch.html" />
+    <Content Include="html\work\sogou.html" />
+    <Content Include="html\work\sogou\1.jpg" />
+    <Content Include="html\work\watch\1.gif" />
+    <Content Include="html\work\weather\1.png" />
+    <Content Include="html\work\weather\2.png" />
+    <Content Include="html\work\woodCarving.html" />
     <Content Include="html\work\food.html" />
     <Content Include="html\work\food\food-1.jpg" />
     <Content Include="html\work\mbeIllustration.html" />
@@ -180,6 +196,7 @@
     <Content Include="html\work\loading.gif" />
     <Content Include="html\work\travel\travel-1.jpg" />
     <Content Include="html\work\womenClothing\1.jpg" />
+    <Content Include="html\work\woodCarving\1.png" />
     <Content Include="otherhtml\bg.gif" />
     <Content Include="otherhtml\history.html" />
     <Content Include="otherhtml\img\loading.gif" />
@@ -284,13 +301,8 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
-    <Folder Include="html\work\heraJewelry\" />
-    <Folder Include="html\work\picshare - Copy %283%29 - Copy %283%29 - Copy %282%29\" />
-    <Folder Include="html\work\picshare - Copy %283%29 - Copy %283%29 - Copy %283%29\" />
-    <Folder Include="html\work\picshare - Copy %283%29 - Copy %283%29 - Copy %284%29\" />
-    <Folder Include="html\work\picshare - Copy %283%29 - Copy %283%29 - Copy %285%29\" />
-    <Folder Include="html\work\picshare - Copy %283%29 - Copy %283%29 - Copy\" />
     <Folder Include="html\work\picshare - Copy %283%29 - Copy %283%29\" />
+    <Folder Include="html\work\shareapp\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
