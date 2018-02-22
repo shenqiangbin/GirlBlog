@@ -1,8 +1,8 @@
 ﻿.container {
-    height: 397px;
+    height: 488px;
     background: url('../img/contact-bg.png') no-repeat;
     background-size: cover;
-    padding-top: 50px;
+    padding-top: 50px;    
 }
 
 .title {
