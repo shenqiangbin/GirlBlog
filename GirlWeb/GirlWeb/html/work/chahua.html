@@ -1,0 +1,77 @@
+﻿
+<!doctype html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>巩倩 - UI设计师</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,300,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="../css/ss-social-regular.css" />
+    <link rel="stylesheet" type="text/css" href="../css/all.css" />
+    <link rel="stylesheet" type="text/css" href="../css/workdetail.css" />
+</head>
+<body>
+
+    <header>
+        <div class="row">
+            <div class="grid-100">
+                <a href="/" class="logo"></a>
+                <nav>
+                    <ul class="social">
+                        <li><a href="../home.html">HOME</a></li>
+                        <li><a href="../about.html">ABOUT</a></li>
+                        <li><a href="../contact.html">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="row work-desc">
+       <h1>插画</h1>
+       <h2>APP Design,UI/UX,交互设计</h2>
+       <p style="text-align:center;"></p>
+       <p></p>
+    </div>
+    <div class="imgbox">
+        <img data-original="./chahua/33.jpg" alt="loading"/>
+    </div>
+    <section>
+        <footer>
+            <div class="row">
+                <div class="grid-100">
+                    <p>All Rights Reserved Gong Qian &#169; 冀ICP备17029815号-1</p>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <script src="http://code.jquery.com/jquery-1.12.4.min.js"
+            integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.bootcss.com/jquery_lazyload/1.9.7/jquery.lazyload.min.js"></script>
+
+    <!-- <script src="js/jquery.fitvids.js"></script> -->
+    <script src="../js/ss-social.js"></script>
+    <!-- <script src="js/main.js"></script> -->
+
+    <script>
+        $(function () {
+            $("img").lazyload({
+                placeholder: "loading.gif", //用图片提前占位
+                effect: "fadeIn", /*effect(特效),值有show(直接显示),fadeIn(淡入),slideDown(下拉)等,常用fadeIn*/
+                threshold: 180 /*在图片距离屏幕180px时提前载入*/
+                //event: 'click',  // 事件触发时才加载
+                // event,值有click(点击),mouseover(鼠标划过),sporty(运动的),foobar(…).可以实现鼠标莫过或点击图片才开始加载,后两个值未测试…
+                //container: $("#container"),  // 对某容器中的图片实现效果
+                // container,值为某容器.lazyload默认在拉动浏览器滚动条时生效,这个参数可以让你在拉动某DIV的滚动条时依次加载其中的图片
+                //failurelimit : 10 // 图片排序混乱时
+                // failurelimit,值为数字.lazyload默认在找到第一张不在可见区域里的图片时则不再继续加载,但当HTML容器混乱的时候可能出现可见区域内图片并没加载出来的情况,failurelimit意在加载N张可见区域外的图片,以避免出现这个问题.
+            });
+        });
+    </script>
+
+</body>
+
+</html>
+
