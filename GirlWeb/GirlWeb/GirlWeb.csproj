@@ -147,7 +147,7 @@
     <Content Include="html\work\building\1.jpg" />
     <Content Include="html\work\cockpit.html" />
     <Content Include="html\work\cockpit\1.png" />
-    <Content Include="html\work\food - Copy %282%29.html" />
+    <Content Include="html\work\shareapp.html" />
     <Content Include="html\work\heraJewelry\10.png" />
     <Content Include="html\work\heraJewelry\11.jpg" />
     <Content Include="html\work\heraJewelry\12.jpg" />
@@ -156,6 +156,7 @@
     <Content Include="html\work\heraJewelry\15.png" />
     <Content Include="html\work\heraJewelry\8.png" />
     <Content Include="html\work\heraJewelry\9.jpg" />
+    <Content Include="html\work\shareapp\1.jpg" />
     <Content Include="html\work\weather.html" />
     <Content Include="html\work\musicapp.html" />
     <Content Include="html\work\musicapp\1.png" />
@@ -309,7 +310,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
     <Folder Include="html\work\picshare - Copy %283%29 - Copy %283%29\" />
-    <Folder Include="html\work\shareapp\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
