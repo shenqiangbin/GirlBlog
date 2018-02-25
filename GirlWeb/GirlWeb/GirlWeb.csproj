@@ -119,6 +119,9 @@
     <Content Include="html\assets\32.jpg" />
     <Content Include="html\assets\33.jpg" />
     <Content Include="html\assets\34.jpg" />
+    <Content Include="html\assets\35.jpg" />
+    <Content Include="html\assets\36.jpg" />
+    <Content Include="html\assets\37.jpg" />
     <Content Include="html\assets\4.jpg" />
     <Content Include="html\assets\5.jpg" />
     <Content Include="html\assets\6.jpg" />
@@ -145,6 +148,8 @@
     <Content Include="html\js\jquery.fitvids.js" />
     <Content Include="html\js\main.js" />
     <Content Include="html\js\ss-social.js" />
+    <Content Include="html\work\38womenCloth\37.jpg" />
+    <Content Include="html\work\38women\35.jpg" />
     <Content Include="html\work\absmarket\26-1.jpg" />
     <Content Include="html\work\absmarket\26-2.jpg" />
     <Content Include="html\work\absmarket\26-3.jpg" />
@@ -206,9 +211,9 @@
     <Content Include="html\work\weather\2.png" />
     <Content Include="html\work\woodCarving - Copy %2810%29.html" />
     <Content Include="html\work\woodCarving - Copy %2811%29.html" />
-    <Content Include="html\work\woodCarving - Copy %2812%29.html" />
-    <Content Include="html\work\woodCarving - Copy %2813%29.html" />
-    <Content Include="html\work\woodCarving - Copy %2814%29.html" />
+    <Content Include="html\work\38women.html" />
+    <Content Include="html\work\zhongqiu.html" />
+    <Content Include="html\work\38womenCloth.html" />
     <Content Include="html\work\dajiang.html" />
     <Content Include="html\work\chahua.html" />
     <Content Include="html\work\fontdesign.html" />
@@ -252,6 +257,7 @@
     <Content Include="html\work\travel\travel-1.jpg" />
     <Content Include="html\work\womenClothing\1.jpg" />
     <Content Include="html\work\woodCarving\1.jpg" />
+    <Content Include="html\work\zhongqiu\36.jpg" />
     <Content Include="otherhtml\bg.gif" />
     <Content Include="otherhtml\history.html" />
     <Content Include="otherhtml\img\loading.gif" />
