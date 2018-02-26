@@ -851,7 +851,7 @@ header {
 }
 
 .logo {
-   width: 104px;
+    width: 104px;
     height: 83px;
     background: url(../img/logo.png) no-repeat center;
     background-size:cover;
@@ -860,7 +860,7 @@ header {
     margin: 12px 0 0;
     padding: 0;
     float: left;
-    opacity: 0.7;
+    opacity: 1;
     -webkit-transition: opacity 300ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
     -moz-transition: opacity 300ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
     transition: opacity 300ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -868,6 +868,8 @@ header {
 
     .logo:hover {
         opacity: 1;
+        background: url(../img/hover.png) no-repeat center;
+        background-size:cover;
     }
 
 footer {
