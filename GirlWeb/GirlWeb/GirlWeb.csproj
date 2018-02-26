@@ -139,6 +139,7 @@
     <Content Include="html\home.html" />
     <Content Include="html\img\email.png" />
     <Content Include="html\img\header.png" />
+    <Content Include="html\img\logo.png" />
     <Content Include="html\img\mathelme-logo.svg" />
     <Content Include="html\img\contact-bg.png" />
     <Content Include="html\img\location.png" />

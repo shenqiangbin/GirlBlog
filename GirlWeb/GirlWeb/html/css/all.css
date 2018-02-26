@@ -851,9 +851,10 @@ header {
 }
 
 .logo {
-    width: 28px;
-    height: 28px;
-    background: url(../img/mathelme-logo.svg) no-repeat center;
+   width: 104px;
+    height: 83px;
+    background: url(../img/logo.png) no-repeat center;
+    background-size:cover;
     display: inline-block;
     z-index: 4;
     margin: 12px 0 0;
